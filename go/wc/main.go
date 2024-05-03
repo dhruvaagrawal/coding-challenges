@@ -12,7 +12,10 @@ func main() {
 
 	fmt.Println(args)
 
-	argsWithoutProgPath := args[1:]
+	filePath := args[1]
 
-	fmt.Println(argsWithoutProgPath)
+	fileSize := GetFileSize(filePath)
+
+	fmt.Println("The file size is:", fileSize)
+
 }
