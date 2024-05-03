@@ -12,10 +12,12 @@ func main() {
 
 	fmt.Println(args)
 
-	filePath := args[1]
+	cliFlag := args[1]
 
-	fileSize := GetFileSize(filePath)
+	HandleFirstCLIFlag(cliFlag)
 
-	fmt.Println("The file size is:", fileSize)
+	// fileSize := GetFileSize(filePath)
+
+	// fmt.Println("The file size is:", fileSize)
 
 }
