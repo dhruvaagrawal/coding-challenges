@@ -12,9 +12,11 @@ func main() {
 
 	fmt.Println(args)
 
-	cliFlag := args[1]
-
-	HandleFirstCLIFlag(cliFlag)
+	if len(args) > 1 {
+		HandleFirstCLIFlag(args)
+	} else {
+		fmt.Println("Please enter valid CLI flags.")
+	}
 
 	// fileSize := GetFileSize(filePath)
 

@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-func HandleFirstCLIFlag(flag string) {
+func HandleFirstCLIFlag(args []string) {
+	flag := args[1]
 	switch flag {
 	case "-c":
 		fmt.Println("Let's count the number of bytes in a file.")
