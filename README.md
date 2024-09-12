@@ -12,3 +12,5 @@ The challenges will go in the order as recommended by John Crickett in his [Go C
 6. [Build your own Shell](https://codingchallenges.fyi/challenges/challenge-shell)
 7. [Build your own DNS Resolver](https://codingchallenges.fyi/challenges/challenge-dns-resolver)
 8. [Build your own git client](https://codingchallenges.fyi/challenges/challenge-git)
+
+Making a minor change here to test something out
